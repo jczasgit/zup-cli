@@ -2,10 +2,21 @@
   "name": "zup-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "zup-cli.js",
+  "main": "index.js",
+  "bin": {
+    "zup": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carlos Wu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "conf": "^9.0.2",
+    "esm": "^3.2.25",
+    "form-data": "^4.0.0",
+    "minimist": "^1.2.5"
+  }
 }

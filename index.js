@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-
-console.log("zup-cli");
+require = require('esm')(module);
+require('./src/cli').cli(process.argv);
