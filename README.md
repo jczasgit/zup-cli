@@ -8,8 +8,15 @@
   
   ## Installation
   This CLI is meant to be used as a global.
+  There is no need to initialize a `package.json`.
   ```
   npm i -g zup-cli
   or
   sudo npm i -g zup-cli
   ```
+
+  ## Using CLI by Downloading Zip
+  1) Unzip the zip folder in your desired location.
+  2) Open a console/terminal and `cd` into the unzip folder.
+  3) Install dependencies using command [npm install](https://docs.npmjs.com/cli/v7/commands/npm-install).
+  4) Link package to use globally `npm link`.
