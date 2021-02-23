@@ -22,7 +22,7 @@ export function configure(args) {
         return;
     }
     
-    let endpoint = args.endpoint || args.e;
+    let endpoint = args.endpoint || args.e || currentConfigObject.endpoint;
     if(!endpoint)
     {
         console.log("No endpoint provided.");
@@ -36,7 +36,7 @@ export function configure(args) {
         console.log("Port not specified. Using defualt port 80.");
     }
 
-    let password = args.password || args.p;
+    let password = args.password || args.p || currentConfigObject.password;
     if(!password)
     {
         console.log("No password provided.");
