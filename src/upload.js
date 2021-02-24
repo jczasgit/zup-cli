@@ -96,7 +96,7 @@ export async function upload(args) {
     }
 
     try {
-        // data = { key: [ 8 integers ] }
+        // * data = { key: [ 8 integers ] }
         const reportString = `
         ${chalk.whiteBright("Using this configuration to process upload:")}
         ${chalk.yellow(`Api: ${useApi}`)}
