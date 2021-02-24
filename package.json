@@ -9,7 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Juan Carlos Wu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jczasgit/zup-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jczasgit/zup-cli/issues"
+  },
+  "author": "Juan Carlos Wu <jcwuchen00@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
