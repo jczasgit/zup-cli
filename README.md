@@ -1,5 +1,5 @@
 # ZUP CLI
-  CLI to handle apk uploads to [backend-zeep](https://github.com/jczasgit/backend-zeep) for [zeep](https://github.com/jczasgit/zeep).
+  CLI to handle apk uploads to [backend-zeep](https://github.com/jczasgit/backend-zeep.git) for [zeep](https://github.com/jczasgit/zeep.git).
   ```
   zup upload --apk-source {some/path/to/apk} --api-endpoint {http://endpoint} --password {password} --port {api-port}
   or
